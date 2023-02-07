@@ -1,10 +1,9 @@
 const app = Vue.createApp({
-	data() {
-
-	},
 	methods: {
-
-	},
+		showAlert() {
+			alert('Button pressed!');
+		},
+	}
 });
 
 app.mount('#events');
